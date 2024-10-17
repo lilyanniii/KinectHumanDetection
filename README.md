@@ -66,7 +66,10 @@ Before starting, make sure you have the following:
    - Open the solution file (`.sln`) located in the project folder.
 3. **Check References**
    - Ensure that **Microsoft.Kinect.dll** is referenced in your project.
-   - If missing, add it by right-clicking on **References** in the **Solution Explorer**, selecting **Add Reference**, and navigating to: **C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Assemblies**
+   - If missing, add it by right-clicking on **References** in the **Solution Explorer**, selecting **Add Reference**, and navigating to:
+   ```bash
+    C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Assemblies
+   ```
 4. **Build the Solution**
    - Click **Build > Build Solution** or press **Ctrl + Shift + B**.
    - Ensure there are no build errors.
