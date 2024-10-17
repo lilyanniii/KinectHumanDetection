@@ -58,5 +58,22 @@ Before starting, make sure you have the following:
 
 1. **Clone the repository** to your local machine:
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone repo-link-here
    cd your-repo
+   ```
+2. **Open the project in Visual Studio:**
+   - Launch Visual studion.
+   - Open the solution file (`.sln`) located in the project folder.
+3. **Check References**
+   - Ensure that **Microsoft.Kinect.dll** is referenced in your project.
+   - If missing, add it by right-clicking on **References** in the **Solution Explorer**, selecting **Add Reference**, and navigating to: **C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Assemblies**
+4. **Build the Solution**
+   - Click **Build > Build Solution** or press **Ctrl + Shift + B**.
+   - Ensure there are no build errors.
+---
+## 5. Running the Project
+
+1. **Run the application** from Visual Studio by pressing **F5** or clicking the **Start** button.
+2. The application will start and initialize the Kinect sensor.
+3. **Move in front of the Kinect sensor** and watch as the application calculates your distance and displays it in real time.
+
