@@ -1,0 +1,14 @@
+﻿<Window x:Class="KinectDistanceDetection.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Kinect Distance Detection" Height="300" Width="500">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Name="DistanceText" FontSize="30" Foreground="White" 
+                       HorizontalAlignment="Center" Text="Distance: N/A" />
+        </StackPanel>
+        <Grid.Background>
+            <SolidColorBrush Color="Black" />
+        </Grid.Background>
+    </Grid>
+</Window>
